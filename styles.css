@@ -1,0 +1,133 @@
+header{
+    background-color: #fffced;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header img{
+    width: 45%;
+}
+header h1{
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    color: #9d5977;
+    font-size: 300%;
+}
+nav{
+    flex-basis: 100%;
+}
+header>nav>a{
+    background-color: #f7a3b1;
+    color: #18727d;
+    text-decoration: none;
+    padding: 2rem 0;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    border: 3px solid transparent;
+    margin-top: 0.5rem;
+}
+header>nav{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+.icons img{
+    max-width: 20%;
+    vertical-align: middle;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #9d5977;
+    text-align: center;
+    font-size: xx-large;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #18727d;
+    font-size: x-large;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #9d5977;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    color: #9d5977;
+}
+.sm{
+    color: #9d5977;
+    text-align: center;
+}
+.sm img{
+    max-width: 30%;
+    vertical-align: middle;
+    margin: -1.5rem;
+}
+.pink{
+    background-color: #f7a3b1;
+    color: #fffced;
+    padding: 0.5rem;
+}
+h5{
+    font-size: larger
+}
+.owner{
+    max-width: 100%;
+}
+.apparel img{
+    max-width: 45%;
+}
+.blogpic img{
+    width: 100%;
+}
+.abs img{
+    max-width: 100%;
+}
+.cardio img{
+    max-width: 100%;
+}
+@media (min-width: 700px){
+    h2{
+        text-align: left;
+        font-size: 400%;
+        margin-left: 10rem;
+    }
+    .icons img{
+        width: 30%;
+    }
+    header>nav>a{
+        font-size: large;
+        width: 15%;
+        padding: 2rem 0;
+        margin: .5rem;
+    }
+    header>nav{
+        margin-bottom: 2rem;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40%;
+        margin: -1rem;
+    }
+    main{
+        position: relative
+    }
+}
